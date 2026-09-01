@@ -1,0 +1,131 @@
+﻿<div class="project-dashboard">
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">A</div>
+      <span>TALLER DE PROYECTOS (BÁSICO)</span>
+    </div>
+
+    <div class="user-pill" role="button" tabindex="0" aria-label="Cuenta de usuario">
+      <span class="user-dot">●</span>
+      <span class="user-label">Cuenta de cuenta</span>
+      <span class="user-caret">▾</span>
+    </div>
+  </header>
+
+  <main class="workspace">
+    <section class="section-header">
+      <h1>MIS PROYECTOS INICIALES</h1>
+    </section>
+
+    <section class="projects-grid" aria-label="Proyectos iniciales">
+      <article class="project-card">
+        <div class="project-preview preview-blog">
+          <div class="mini-bar">
+            <span class="mini-tag">My Blog</span>
+            <span class="mini-title">Blog Personal</span>
+          </div>
+          <div class="blog-lines">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <h2>Web Personal Simple</h2>
+          <p>Sitio web personal para presentar información, proyectos y habilidades profesionales.</p>
+          <div class="chip-row">
+            <span>Angular</span>
+            <span>TypeScript</span>
+            <span>CSS</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-preview preview-profile">
+          <div class="profile-icon">◔</div>
+          <div class="profile-blocks">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <h2>Perfil de Usuario UI</h2>
+          <p>Interfaz sencilla para mostrar los datos, opciones y categorías de un usuario.</p>
+          <div class="chip-row">
+            <span>Angular</span>
+            <span>TypeScript</span>
+            <span>CSS</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-preview preview-product">
+          <div class="product-head">
+            <span>Detalle de Producto</span>
+            <span class="price">S/99.99</span>
+          </div>
+          <div class="qty-box">
+            <span>Cantidad</span>
+            <strong>1</strong>
+          </div>
+          <button type="button">Añadir al carrito</button>
+        </div>
+
+        <div class="project-info">
+          <h2>Detalle de Producto Básico</h2>
+          <p>Página diseñada para mostrar las características, precio y opciones de compra de un producto.</p>
+          <div class="chip-row">
+            <span>Angular</span>
+            <span>TypeScript</span>
+            <span>CSS</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="add-card" aria-label="Añadir nuevo proyecto">
+      <div class="add-head">
+        <div class="add-icon">＋</div>
+        <h3>Añadir Nuevo Proyecto</h3>
+      </div>
+
+      <div class="add-form">
+        <label class="field title-field">
+          <span>Título</span>
+          <input type="text" placeholder="Nombre del proyecto" />
+        </label>
+
+        <label class="field category-field">
+          <span>Categoría</span>
+          <select>
+            <option>Seleccionar</option>
+            <option>Blog</option>
+            <option>Perfil</option>
+            <option>Ecommerce</option>
+          </select>
+        </label>
+
+        <label class="field full-width">
+          <span>Descripción</span>
+          <input type="text" placeholder="Escribe una descripción del proyecto" />
+        </label>
+      </div>
+
+      <div class="add-actions">
+        <button type="button" class="primary-btn">＋ Añadir</button>
+        <button type="button" class="secondary-btn">Cancelar</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="credit">Hecho con <span class="heart">♥</span> por Bryan Villanueva</div>
+    <div class="copyright">© 2024 Derechos Reservados</div>
+  </footer>
+</div>
+
+<router-outlet />
